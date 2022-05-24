@@ -1,7 +1,4 @@
 tasks:
+  - name: Dev Server
     init: npm install
     command: npm start
-
- ports:
-  - port: 8501
-    onOpen: open-browser
